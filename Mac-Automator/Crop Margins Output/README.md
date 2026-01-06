@@ -19,7 +19,7 @@ brew install ghostscript
 余白除去を行うPythonツール。
 
 ```bash
-pip install pdf-crop-margins
+pip install pdfCropMargins
 
 ```
 ## ダウンロード
