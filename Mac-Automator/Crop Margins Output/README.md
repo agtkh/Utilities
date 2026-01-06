@@ -22,10 +22,13 @@ brew install ghostscript
 pip install pdf-crop-margins
 
 ```
+## ダウンロード
+
+[https://github.com/agtkh/Utilities/raw/refs/heads/main/Mac-Automator/Crop%20Margins%20Output/Crop%20Margins%20Output.workflow.zip](https://github.com/agtkh/Utilities/raw/refs/heads/main/Mac-Automator/Crop%20Margins%20Output/Crop%20Margins%20Output.workflow.zip)
 
 ## インストール
 
-配布された `.workflow` ファイルを以下のディレクトリに配置する。
+ダウンロードしたZIPファイルを解凍し、 `.workflow` ファイルを以下のディレクトリに配置する。
 
 `~/Library/PDF Services`
 
