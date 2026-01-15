@@ -28,7 +28,9 @@ pip3 install pdfCropMargins
 
 ## インストール
 
-ダウンロードしたZIPファイルを解凍し、 `.workflow` ファイルを以下のディレクトリに配置する。
+ダウンロードしたZIPファイルを解凍し、 `.workflow` ファイルを **ダブルクリックしてインストール** する。
+
+または、以下のディレクトリに配置する。
 
 `~/Library/PDF Services`
 
@@ -46,3 +48,16 @@ cp -r Crop\ Margins\ Output.workflow ~/Library/PDF\ Services
 2. ダイアログ下部の「PDF」プルダウンメニューから本プラグインを選択する。
 3. 保存先を指定する。
 4. 処理完了後、通知が表示される
+
+## トラブルシューティング
+
+環境によっては、`pdf-crop-margins`や`gs`コマンドが発見できず、エラーになる。
+
+`.workflow`ファイルのAutomatorアプリで開き、`export PATH=...`の部分を自身の環境に合わせて編集すれば利用可能になる。
+
+`pdf-crop-margins`や`gs`がどこにインストールされているかは、`which`コマンドを使えばわかる。
+
+```bash
+which pdf-crop-margins
+which gs
+```
