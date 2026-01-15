@@ -61,7 +61,7 @@
 					<key>COMMAND_STRING</key>
 					<string>#!/bin/zsh
 
-export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.pyenv/shims:$HOME/.local/bin:$PATH"
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/.pyenv/shims:$HOME/miniconda3/bin:$HOME/anaconda3/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
 # ---------------------------------------------------------
 # 依存コマンドのチェック関数
@@ -84,7 +84,7 @@ check_command() {
 # ---------------------------------------------------------
 
 # 1. pdf-crop-margins のチェック
-if ! check_command "pdf-crop-margins" "pip install pdf-crop-margins 等を実行してインストールしてください。"; then
+if ! check_command "pdf-crop-margins" "pip install pdfCropMargins 等を実行してインストールしてください。"; then
     exit 1
 fi
 PCM_BIN=$(command -v pdf-crop-margins)
@@ -251,7 +251,7 @@ fi
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>769.000000:676.000000</string>
+				<string>769.000000:701.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
