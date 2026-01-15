@@ -36,7 +36,7 @@ pip install pdfCropMargins
 
 ```bash
 mkdir -p ~/Library/PDF\ Services
-cp Crop\ Margins\ Output.workflow ~/Library/PDF\ Services
+cp -r Crop\ Margins\ Output.workflow ~/Library/PDF\ Services
 ```
 
 
