@@ -32,7 +32,13 @@ pip install pdfCropMargins
 
 `~/Library/PDF Services`
 
-※ディレクトリが存在しない場合は作成すること。
+※ディレクトリが存在しない場合は作成すること。空白に注意。
+
+```bash
+mkdir -p ~/Library/PDF\ Services
+cp Crop\ Margins\ Output.workflow ~/Library/PDF\ Services
+```
+
 
 ## 使用方法
 
