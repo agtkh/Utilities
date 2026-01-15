@@ -61,7 +61,7 @@
 					<key>COMMAND_STRING</key>
 					<string>#!/bin/zsh
 
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/.pyenv/shims:$HOME/miniconda3/bin:$HOME/anaconda3/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+export PATH="$HOME/Library/Python/3.9/bin:$HOME/Library/Python/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/.pyenv/shims:$HOME/miniconda3/bin:$HOME/anaconda3/bin:/usr/bin:/bin:/opt/anaconda3/bin:/usr/sbin:/sbin:$PATH"
 
 # ---------------------------------------------------------
 # 依存コマンドのチェック関数
@@ -251,7 +251,7 @@ fi
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>769.000000:701.000000</string>
+				<string>769.000000:897.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
